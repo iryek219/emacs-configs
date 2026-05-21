@@ -1,0 +1,9 @@
+straight/
+transient/
+eln-cache/
+history
+*~
+places
+*.eld
+projects
+recentf
