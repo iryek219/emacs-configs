@@ -1,6 +1,7 @@
 straight/
 transient/
 eln-cache/
+tree-sitter/
 history
 *~
 places
