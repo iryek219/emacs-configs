@@ -78,7 +78,9 @@
 (setq treesit-font-lock-level 3)  ; max detail=4; default is 3
 
 ;; --- Project tree sidebar ---
-(use-package treemacs :bind ("<f8>" . treemacs))
+(use-package treemacs
+  :straight t
+  :bind ("<f8>" . treemacs))
 
 ;; magit
 (straight-use-package 'magit)
