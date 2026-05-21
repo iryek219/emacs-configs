@@ -74,6 +74,9 @@
         (mhtml-mode  . html-ts-mode)
         (html-mode   . html-ts-mode)))
 
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-ts-mode))
+(setq treesit-font-lock-level 3)  ; max detail=4; default is 3
+
 ;; --- Project tree sidebar ---
 (use-package treemacs :bind ("<f8>" . treemacs))
 
